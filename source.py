@@ -54,6 +54,7 @@ def postCheck():
                         nr = 0
                         while nr < lim:
                             webbrowser.open(urls[nr].get("href"))
+                            #webbrowser.open(baseURL + cafeName + "/" + postID)
                             nr = nr + 1
                     else:
                         pass
