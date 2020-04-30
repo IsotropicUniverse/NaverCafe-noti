@@ -23,7 +23,7 @@ while nr < lim:
 - `webbrowser.open(urls[nr].get("href"))` (line 56): 게시글 내에 입력된 URL들을 엽니다.
 - `#webbrowser.open(baseURL + cafeName + "/" + postID)` (line 57): 게시글을 엽니다.
 
-코드 줄 맨 앞에 `#`을 입력하면 해당 줄은 **비활성화**됩니다. 예를 들어, 위 code block에서 line 2는 **활성화**, line 3은 **비활성화** 상태입니다.
+코드 줄 맨 앞에 `#`을 입력하면 해당 줄은 **비활성화**됩니다. 예를 들어 위와 같은 상황에서, line 56의 코드는 **활성화**, line 57의 코드는 **비활성화** 상태입니다.
 
 **주의: 들여쓰기가 맞지 않으면 오류가 발생합니다.**
 
