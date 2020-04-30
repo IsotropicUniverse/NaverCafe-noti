@@ -14,17 +14,17 @@ Notification bot for people who are not members of specific Naver Cafe
 `source.py` 파일의 **line 55-58**의 코드를 수정합니다.
 
 ```python
-                        while nr < lim:
-                            webbrowser.open(urls[nr].get("href"))
-                            #webbrowser.open(baseURL + cafeName + "/" + postID)
-                            nr = nr + 1
+    while nr < lim:
+    webbrowser.open(urls[nr].get("href"))
+    #webbrowser.open(baseURL + cafeName + "/" + postID)
+    nr = nr + 1
 ```
 
 - `webbrowser.open(urls[nr].get("href"))` (line 56): 게시글 내에 입력된 URL들을 엽니다.
 - `#webbrowser.open(baseURL + cafeName + "/" + postID)` (line 57): 게시글을 엽니다.
 
 코드 줄 맨 앞에 `#`을 입력하면 해당 줄은 **비활성화**됩니다. 예를 들어, 위 code block에서 line 2는 **활성화**, line 3은 **비활성화** 상태입니다.
-
+**주의: 들여쓰기가 맞지 않으면 오류가 발생합니다.**
 
 
 ## 설치 및 실행
