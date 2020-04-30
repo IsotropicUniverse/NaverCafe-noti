@@ -14,7 +14,7 @@ Notification bot for people who are not members of specific Naver Cafe
 `source.py` 파일의 **line 55-58**의 코드를 수정합니다.
 
 ```python
-    while nr < lim:
+while nr < lim:
     webbrowser.open(urls[nr].get("href"))
     #webbrowser.open(baseURL + cafeName + "/" + postID)
     nr = nr + 1
