@@ -54,7 +54,7 @@ pip install requests
 #### Telegram bot 생성
 이 부분은 Google에 검색하면 많이 나옵니다.
 1. Telegram 검색에서 BotFather을 클릭합니다.
-2. Start 클릭 후 /newbot 을 입력하여 봇을 생성합니다.
+2. Start 클릭 후 `/newbot` 을 입력하여 봇을 생성합니다.
 3. 봇 이름, 봇 사용자 이름을 입력하면 Use this token to access the HTTP API: 뒤에 있는 부분에 위치한 **토큰**을 복사합니다.
 4. 웹 브라우저에서 api.telegram.org/bot**xyzxyz**/getUpdates 의 **xyzxyz**에 해당하는 부분에 방금 복사한 토큰을 붙여넣기 후 접속합니다.
 5. 생성된 봇에서 아무 메시지나 보낸 후 위 페이지를 새로 고침합니다.
